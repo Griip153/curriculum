@@ -14,5 +14,12 @@ Functions and parameters; arrays and key methods (push, map, filter, find); obje
 ## Task of the day
 Build a "student records" terminal program: array of student objects, functions for average, top student, and filtering above-average students.
 
+## Project checkpoint
+Turn yesterday's grade-calculator logic into `letterGrade(score)` in
+`../project/grade.mjs`, and put today's `average`, `topStudent`, and `aboveAverage`
+functions in `../project/report.mjs` (same solutions as your `exercises/` files — just
+copied into the project scaffold). See `../PROJECT.md` for the full spec; Day 4 wires
+all of this together and adds persistence.
+
 ---
 *Done? Submit your daily report in the `daily-reports` repo before midnight.*
