@@ -12,7 +12,7 @@ npm and package.json (scripts, dependencies); CommonJS vs ES modules; fs, path, 
 - freeCodeCamp — Node.js and Express course (Node sections)
 
 ## Task of the day
-Build a raw HTTP server with two JSON routes, then write an npm script to run it with nodemon. Push with a proper .gitignore (node_modules!).
+Build a raw HTTP server (no Express) with several JSON routes: a health check, a list-all-students route, a get-one-student-by-id route, and a create-student route — with the student list saved to a JSON file on disk so it survives a restart. Add one more route that reports info about your machine using the `os` module. Then write an npm script to run the server with nodemon. Push with a proper .gitignore (node_modules! and the generated data file!). Full step-by-step instructions are in `LESSON.md`.
 
 ---
 *Done? Submit your daily report in the `daily-reports` repo before midnight.*
