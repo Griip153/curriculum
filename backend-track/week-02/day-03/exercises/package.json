@@ -1,0 +1,10 @@
+{
+  "name": "day-03-exercises",
+  "version": "1.0.0",
+  "description": "Day 3 - students API rebuilt with Express (full CRUD + middleware)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC"
+}

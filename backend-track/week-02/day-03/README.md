@@ -12,7 +12,7 @@ Express setup; routing (GET/POST/PUT/DELETE); route params and query strings; mi
 - Net Ninja — Express episodes
 
 ## Task of the day
-Build a "students API" with an in-memory array: full CRUD with correct status codes, tested in Postman with the collection saved and pushed.
+Rebuild yesterday's raw-Node students server as a proper Express app: full CRUD (list with optional filtering, get one, create, update, delete) on an in-memory array, a custom logging middleware, a validation middleware that rejects bad input, and the students routes organised into their own `express.Router()` file. Test every route in Postman, with correct status codes, and push the saved collection. Full step-by-step instructions are in `LESSON.md`.
 
 ---
 *Done? Submit your daily report in the `daily-reports` repo before midnight.*
