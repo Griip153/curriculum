@@ -12,7 +12,7 @@ REST principles (resources, nouns, methods); routes vs controllers; central erro
 - "MVC in 100 Seconds" — Fireship
 
 ## Task of the day
-Refactor the students API into routes/ and controllers/, add global error + 404 handlers, and move config into .env.
+Refactor the students API into routes/ and controllers/, add global error + 404 handlers, and move config into .env. Full step-by-step instructions are in `LESSON.md`.
 
 ---
 *Done? Submit your daily report in the `daily-reports` repo before midnight.*
