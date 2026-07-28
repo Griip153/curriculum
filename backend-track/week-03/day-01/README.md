@@ -12,7 +12,7 @@ SQL vs NoSQL; Atlas setup; databases, collections, documents; CRUD and query fil
 - "MongoDB in 100 Seconds" — Fireship
 
 ## Task of the day
-Create a free Atlas cluster and a "library" database, insert 10 books via Compass, and complete 10 query exercises given in class.
+Create a free Atlas cluster and a "library" database, insert 10 books via Compass, and complete 10 query exercises given in class. Full step-by-step instructions are in `LESSON.md`.
 
 ---
 *Done? Submit your daily report in the `daily-reports` repo before midnight.*
