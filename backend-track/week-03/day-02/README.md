@@ -12,7 +12,7 @@ Connecting Express to Atlas; schemas and models; schema validation; async/await 
 - freeCodeCamp — Node/Express course (MongoDB sections)
 
 ## Task of the day
-Rebuild the students API on Mongoose with schema validation — all CRUD against Atlas, Postman collection updated.
+Rebuild the students API on Mongoose with schema validation — all CRUD against Atlas, Postman collection updated. Full step-by-step instructions are in `LESSON.md`.
 
 ---
 *Done? Submit your daily report in the `daily-reports` repo before midnight.*
