@@ -1,0 +1,17 @@
+{
+  "name": "day-03-exercises",
+  "version": "1.0.0",
+  "description": "Day 11 - request validation and consistent error handling on top of the Day 10 Mongoose API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-validator": "^7.2.1",
+    "mongoose": "^8.9.5"
+  }
+}
