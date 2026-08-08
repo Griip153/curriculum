@@ -1,0 +1,46 @@
+/*
+  Task of the day (see README.md): style your Day 2 profile page.
+
+  Link this file from ../day-02/exercises/profile.html:
+    <link rel="stylesheet" href="../../day-03/exercises/profile.css" />
+
+  Plan before you type (see LESSON.md sections 1-7):
+  1. box-sizing: border-box on everything, first.
+  2. Pick a color scheme — 2-3 colors, used consistently (background, text, accent).
+  3. A custom font-family on body, with a sane fallback list.
+  4. Spacing — padding inside each <section>, margin between sections, so nothing
+     touches the edge of the page or crowds the next section.
+  5. Basic typography hierarchy — your name (h1) biggest, section titles (h2) next,
+     body text last.
+
+  Re-open profile.html in the browser after every change to check your work.
+*/
+
+* {
+  box-sizing: border-box;
+  /* TODO: pick your box-sizing reset — this is already done, leave it. */
+}
+
+body {
+  /* TODO: font-family, a background-color, base text color */
+}
+
+header {
+  /* TODO: padding, background/accent color, spacing under the nav links */
+}
+
+header nav a {
+  /* TODO: text-decoration, spacing between links, a hover color (use :hover) */
+}
+
+main section {
+  /* TODO: padding and margin so each section has breathing room */
+}
+
+main section h2 {
+  /* TODO: font-size and color for section titles */
+}
+
+footer {
+  /* TODO: padding, text-align, a muted text color */
+}

@@ -1,0 +1,37 @@
+/*
+  Worked exercise (see LESSON.md): a simple business card.
+  box-sizing first, then the box model (padding/border/margin), then typography.
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+.business-card {
+  width: 320px;
+  padding: 24px;
+  margin: 40px auto;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.business-card h2 {
+  margin: 0 0 4px;
+  font-size: 1.5rem;
+  color: #111827;
+}
+
+.business-card .title {
+  margin: 0 0 12px;
+  font-size: 1rem;
+  color: #6b7280;
+}
+
+.business-card .contact {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #374151;
+}

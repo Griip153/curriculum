@@ -1,0 +1,35 @@
+/*
+  Task of the day (see README.md + LESSON.md worked exercise): recreate the
+  business card design from class.
+
+  Work top to bottom, same order as the worked exercise:
+  1. box-sizing reset
+  2. the card's box (width, padding, border, margin, background)
+  3. typography for each line (name > title > company > contact, in that order
+     of visual weight)
+  4. color to match the design shown in class
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+.business-card {
+  /* TODO: width, padding, margin, border/border-radius, background-color */
+}
+
+.business-card__name {
+  /* TODO: the biggest, boldest text on the card */
+}
+
+.business-card__title {
+  /* TODO: smaller than the name, maybe a muted or accent color */
+}
+
+.business-card__company {
+  /* TODO: font-weight/style to distinguish it from the title line */
+}
+
+.business-card__contact {
+  /* TODO: the smallest text — email/phone */
+}
