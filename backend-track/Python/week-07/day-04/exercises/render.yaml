@@ -1,0 +1,26 @@
+# Optional: Render "Infrastructure as Code" config. You can also configure
+# the build/start commands directly in the Render dashboard instead of
+# using this file - either approach works.
+services:
+  - type: web
+    name: students-api
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "uvicorn main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: JWT_SECRET_KEY
+        sync: false
+      - key: MAIL_USERNAME
+        sync: false
+      - key: MAIL_PASSWORD
+        sync: false
+      - key: MAIL_FROM
+        sync: false
+      - key: MAIL_PORT
+        sync: false
+      - key: MAIL_SERVER
+        sync: false
+      - key: DEBUG
+        value: "False"

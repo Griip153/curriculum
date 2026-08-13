@@ -15,8 +15,7 @@ async def get_usd_to_xaf_rate():
             response.raise_for_status()
             data = response.json()
             rate = data["rates"]["XAF"]
-            # print(f"1 USD = {rate} XAF")
-            print(data['rates'])
+            print(f"1 USD = {rate} XAF")
     except httpx.RequestError:
         print("Network problem - could not reach the exchange rate service.")
     except httpx.HTTPStatusError as error:
